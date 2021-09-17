@@ -1,0 +1,695 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+:root{
+    --color-primary: #fff;
+    --color-secondary:#000000;
+}
+.logo__menu{
+    display:flex;
+    justify-content:space-between;
+    padding:1rem 12rem;
+}
+
+.logo{
+    color:#808080;
+    font-family: 'Roboto', helvetica, sans-serif;
+    font-weight:200;
+    font-size:1.5rem;
+    font-style: italic;
+}
+.logo-img:hover{
+    color:#d32f2f;
+}
+.main-header{
+    background-image: url('img/hero-bg.jpg');
+    width:100%;
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    
+}
+
+.title-header{
+    color:var(--color-primary);
+    
+    padding:10rem;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif
+}
+.hero-title{
+    border-bottom: 0.5rem solid var(--color-primary); 
+    text-align: justify;
+    width:50%;
+}
+.hero-title h4{
+    font-weight: 25;
+    font-size:3rem;
+}
+.hero-title h1{
+    font-weight: 900;
+    font-size:4.5rem;
+}
+.services__render{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    
+}
+.header-services img,
+.cleaning img,
+.plumbing__img img{
+    padding: 2rem ;
+}
+.header-services p,
+.cleaning p,
+.plumbing__img p{
+    font-size:0.7rem;
+}
+.our-service{
+    display:flex;
+    flex-direction:column;
+   
+    font-family:'Roboto',Arial, Helvetica, sans-serif
+    
+}
+.help{
+    background-color:#f2f2f2;
+    text-align: center;
+    padding:7rem 20rem;
+    
+}
+.help h6{
+    margin-bottom: 1.5rem;
+    opacity:0.3;
+}
+.help h2{
+    font-size:2rem;
+    margin-bottom: 1.5rem;
+}
+.help p{
+    font-weight: 100;
+    font-family:'Roboto',Arial;
+    line-height:1.8;
+    margin-bottom: 1.5rem; 
+}
+.help button{
+    background-color:rgb(175, 8, 8);
+    color:var(--color-primary);
+    padding:1rem;
+    border:none;
+    margin-top:1rem;
+    font-family:'Roboto',Arial;
+    font-size:10px;
+    width:25%;
+}
+.flex{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding:2rem 10rem;
+    font-family:'Open-Sans', Arial, Helvetica, sans-serif;
+    font-weight:100;
+    width:100%;
+}
+.img-para{
+    display:flex;
+    flex-direction: column;
+    margin-right: 2rem;
+    width:60%;
+}
+.flex .img-para img {
+    width:100%;
+}
+.img-para__text{
+    
+    width:70%;
+    font-size:1rem;
+    margin-top:1rem;
+    line-height: 1.8;
+    padding:2rem;
+    
+}
+.right-away h3{
+    font-size:2rem;
+    font-weight: 700;
+    font-family:sans-serif;
+}
+.right-away h4{
+    font-size:1.5rem;
+    font-weight: 700;
+    font-family:sans-serif;
+    color:#d32f2f;
+}
+.plumber-img{
+    width:100%;
+    margin-top:3rem;
+}
+.quality{
+    display:flex;
+    background-color: gainsboro;
+    padding:2rem 10rem;
+}
+
+.quality-img img{
+    width:50%;
+    height:100%;
+}
+.quality-heading{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.quality-heading h2{
+    font-family:'Roboto', sans-serif;
+    font-weight:700;
+    color:rgb(13, 54, 95);
+    border-bottom: 0.5rem solid #d32f2f;
+    width:75%;
+    font-size:3rem;
+    font-weight:500;
+    white-space: pre;
+}
+.quality-text{
+    width:70%;
+    font-size:1rem;
+    margin-top:1rem;
+    line-height: 1.8;
+    font-family:'Open-Sans ',sans-serif;
+    font-weight:100;
+    opacity: 1;
+}
+.quality-text button{
+    background-color:#d32f2f;
+    color:var(--color-primary);
+    padding:1rem;
+    border:none;
+    margin-top:1rem;
+    font-family:'Roboto',Arial;
+    font-size:10px;
+    width:30%;
+
+}
+.our__services{
+    padding:1rem;
+    font-family:sans-serif;
+    display:flex;
+    justify-content:space-between;
+    margin-right:25rem;
+}
+.service__heading{
+    margin-left:10rem;
+    margin-bottom:3rem;
+    display:flex;
+    flex-direction: column;
+    white-space: pre;
+    padding:0.3rem;
+    position:relative;
+    bottom:40px;
+    left:1rem;
+}
+.services__img-heading{
+    font-size:1rem;
+    margin-bottom:1rem;
+}
+
+.services__icon{
+    background-color:#d32f2f;
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    margin-top:3rem;
+    margin-right:10rem;
+    position:relative;
+    right:150px; 
+}
+.services__icon img{
+    width:70px;
+    height:70px;
+    padding:1rem;
+    margin-bottom:1rem;
+}
+.services__icon p {
+    width:270%;
+    font-size:0.7rem;
+    line-height:1.8;
+    font-family:'Open-Sans',sans-serif;
+    font-style:italic;
+    color:var(--color-secondary);
+    
+}
+.about-us{
+    
+    margin-top:5rem;
+    padding:2rem 20rem;
+    background-color: #104e92;;
+    font-family:'Roboto',sans-serif;
+    height:55vh;
+}
+.about-us__img{
+    display:flex;
+    flex-direction: row;
+}
+.about-us__box{
+    display:flex;
+    justify-content: space-around;
+    
+}
+.about-us__heading{
+    
+    padding:1rem;
+}
+.about-us__heading small{
+    font-size:12px;
+    color:var(--color-primary);
+}
+.about-us__heading h3,
+.about-us__heading h2{
+    font-size:5rem;
+    color:var(--color-primary);
+
+}
+.about-plumber{
+    padding:0.7rem;
+}
+.to-do__list{
+    padding:3rem 30rem;
+}
+.to-do-heading{
+    text-align:center;
+    font-size:1rem;
+    margin-bottom:1rem;
+    
+}
+.to-do-para{
+    text-align:center;
+    font-size:1.5rem;
+    font-family:'Roboto',sans-serif;
+    font-weight: 100;
+    margin-bottom:1rem;
+    line-height: 1.0;
+}
+.btn{
+    padding:0.9rem;
+    font-size: 10px;
+    background-color:#d32f2f;
+    color:#fff;
+    border:none;
+    margin:0 auto;
+    margin-left: 2rem;
+    width:35%;
+
+}
+.btn2{
+    padding:0.9rem;
+    font-size: 10px;
+    width:35%;
+    border:1px solid #000000;
+    margin:0 auto;
+    opacity:0.8;
+
+}.footer{
+    background-color: #333333;
+
+}
+.footer-text p{
+    text-align: center;
+    color:var(--color-primary);
+    font-size: 12px;
+    padding:1rem;
+}
+.footer-link{
+    display:flex;
+    justify-content: center;
+    padding-top: 10%;
+}
+.footer-link a{
+    color:#abcff7;
+    font-size:10px;
+    margin-right:.3rem ;
+}
+.footer-link span{
+    color:var(--color-primary);
+    font-size:10px;
+    margin-right:.3rem ;
+}
+/* mobile screen */
+@media (max-width:430px){
+    .logo__menu{
+        display:none;
+    }
+    .main-header{
+        width:100%;
+    }
+    .hero-title{
+       width:100%;
+    }
+    .hero-title h4{
+        font-size:1rem !important;
+    }
+    .hero-title h1{
+        font-size:2rem!important;
+    }
+    .services__render{
+        display:none;
+    }
+    .help{
+        width:100%;
+        padding:0;
+    }
+    .help h6{
+        padding-top:1rem;
+    }
+    .help h2{
+        font-size:1rem;
+    }
+    .flex{
+        display:flex;
+        flex-direction:column;
+        width:100%;
+    }
+    .img-para{
+        
+        width:406px;
+    }
+    .img-para__text{
+        width:100%;
+        margin:0 1rem;
+        
+    }
+    .right-away h3{
+        width:100%;
+        white-space: pre;
+    }
+    .quality{
+        width:100%;
+    }
+    .quality-img img{
+        display:none;
+    }
+    .quality-heading h2{
+        text-align:justify;
+        font-size:2rem;
+        border-bottom: none;
+        position: relative;
+        right:70px;
+    }
+    .quality-text{
+        width:150%;
+        position: relative;
+        right:120px;
+    }
+    .our__services{
+        
+        display:flex;
+        flex-direction: column;
+    }
+    
+    .services__img-heading{
+        
+        position:relative;
+
+        right:5rem;
+    }
+    .services__icon{
+        
+        position:relative;
+        left:10px;
+        bottom:200px;
+        margin-bottom:50px; 
+    }
+    .services__icon p {
+        width:270%;
+        position:relative;
+        left:10px;
+        bottom:5px;
+        
+    }
+    .about-us{
+        position:relative;
+        bottom:100px;
+        
+        height:210vh;
+    }
+    .about-us__img1{
+        display:flex;
+        flex-direction: column;
+        position:relative;
+        right:200px;
+    }
+    .about-us__box{
+        display:flex;
+        flex-direction:column;
+    }
+    
+    .about-us__heading small{
+        font-size:10px;
+        position:relative;
+        right:250px;
+    }
+    .about-us__heading h3,
+    .about-us__heading h2{
+        font-size:1rem;
+        position:relative;
+        right:250px;
+    
+    }
+    .to-do__list{
+        
+        position: relative;
+        right: 200px;
+        width: 100%;
+        
+    }
+    .to-do__box{
+        
+        width: 300px;
+        position: relative;
+        right: 250px;
+        bottom:50px;
+
+    }
+    .to-do-heading{
+        max-width:300px;
+       
+    }
+    .to-do-para{
+        text-align:center;
+        font-size:1.5rem;
+        margin-bottom:1rem;
+        line-height: 1.0;
+    }
+    .btn,
+    .btn2{
+          
+        display:none;
+        
+        
+    } 
+    
+
+}
+/* Tablet */
+@media(max-width:768px){
+    .logo__menu{
+        display:none;
+        
+    }
+    .hero-title h4{
+        
+        font-size:2rem;
+    }
+    .hero-title h1{
+        
+        font-size:2rem;
+    }
+    .services__render{
+        display:none;
+    }
+    .help h6{
+        position: relative;
+        right:150px;
+        
+    }
+    .help h2,
+    .help p{
+        position: relative;
+        right:200px;
+        width:200%;
+        
+    }
+    .help button{
+        position: relative;
+        right:130px;
+        width:70%;
+        
+    }
+    .flex{
+        display:flex;
+        flex-direction:column;
+        width:100%;
+    }
+    .img-para{
+        
+        width:406px;
+        position:relative;
+        right:100px;
+    }
+    .img-para__text{
+    
+        width:100%;
+        margin:0 1rem;
+        
+    }
+    .right-away h3,
+    .right-away h4{
+        width:100%;
+        white-space: pre;
+        position:relative;
+        right:100px;
+    }
+    .plumber-img{
+        
+        width:406px;
+        position:relative;
+        right:120px;
+    }
+    .quality{
+        width:100%;
+    }
+    .quality-img img{
+        display:none;
+    }
+    .quality-heading h2{
+        text-align:justify;
+        font-size:2rem;
+        border-bottom: none;
+        position: relative;
+        right:70px;
+    }
+    .quality-text{
+        width:100%;
+        position: relative;
+        right:120px;
+    }
+    .quality-text button{
+        width:20%;
+    }
+    .our__services{
+        
+        display:flex;
+        flex-direction: column;
+        margin:0 50px;
+    }
+    
+    .services__img-heading{
+        
+        position:relative;
+
+        right:5rem;
+    }
+    .services__icon{
+        
+        position:relative;
+        left:10px;
+        bottom:200px;
+        margin-bottom:50px; 
+    }
+    .services__icon p {
+        width:270%;
+        position:relative;
+        left:10px;
+        bottom:5px;
+        
+    }
+    .about-us{
+        height:70vh;
+        position:relative;
+        bottom:150px;
+        
+    }
+    .about-us__img1{
+        display:flex;
+        flex-direction: column;
+        position:relative;
+        right:100px;
+        
+        }
+    .about-us__box{
+        display:flex;
+        flex-direction:column;
+    }
+    
+    .about-us__heading small{
+        font-size:10px;
+        position:relative;
+        right:100px;
+    }
+    .about-us__heading h3,
+    .about-us__heading h2{
+        font-size:1rem;
+        position:relative;
+        right:100px;
+    
+    }
+    .to-do__list{
+        
+        position: relative;
+        right: 100px;
+        width: 100%;
+        
+    }
+    .to-do__box{
+        
+        width: 300px;
+        position: relative;
+        right: 150px;
+        bottom:100px;
+
+    }
+    .to-do-heading{
+        
+        max-width:300px;
+       
+    }
+    .to-do-para{
+        text-align:center;
+        font-size:1.5rem;
+        margin-bottom:1rem;
+        line-height: 1.0;
+    }
+    .btn,
+    .btn2{
+        display:flex;
+        flex-direction: column;
+        margin:1rem;
+        width:120px;
+        position: relative;
+        right:100px;
+        align-items: center;
+
+    }
+    .footer-text p
+    {
+        position:relative;
+        right:140px;
+    }
+    .footer-link,
+    .footer-link a,
+    .footer-link span{
+        position:relative;
+        right:70px;
+    }
+}
+   
+
