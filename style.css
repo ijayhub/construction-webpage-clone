@@ -498,6 +498,7 @@
     
 
 }
+
 /* Tablet */
 @media(max-width:768px){
     .logo__menu{
@@ -518,19 +519,23 @@
     .help h6{
         position: relative;
         right:150px;
+        font-size:1rem;
+        white-space:pre;
+    
         
     }
     .help h2,
     .help p{
         position: relative;
-        right:200px;
-        width:200%;
+        right:250px;
+        width:400px;
+        
         
     }
     .help button{
         position: relative;
         right:130px;
-        width:70%;
+        width:150px;
         
     }
     .flex{
@@ -542,27 +547,28 @@
         
         width:406px;
         position:relative;
-        right:150px;
+        left:20px;
         overflow:hidden;
     }
     .img-para__text{
     
-        width:100%;
+        width:70%;
         margin:0 1rem;
         
+   
     }
     .right-away h3,
     .right-away h4{
         width:100%;
         white-space: pre;
         position:relative;
-        right:100px;
+        right:20px;
     }
     .plumber-img{
         
         width:406px;
         position:relative;
-        right:170px;
+        left:10px;
         overflow:hidden;
     }
     .quality{
@@ -579,13 +585,16 @@
         right:70px;
     }
     .quality-text{
-        width:80%;
+        width:140%;
         position: relative;
         right:100px;
+        margin:0 1rem;
+        
+        
         
     }
     .quality-text button{
-        width:25%;
+        width:75px;
     }
     .our__services{
         
@@ -615,7 +624,7 @@
         
     }
     .about-us{
-        height:220vh;
+        height:125vh;
         position:relative;
         bottom:150px;
         
@@ -685,13 +694,13 @@
     .footer-text p
     {
         position:relative;
-        right:150px;
+        right:10px;
     }
     .footer-link,
     .footer-link a,
     .footer-link span{
         position:relative;
-        right:80px;
+        right:10px;
     }
 }
    
